@@ -4,7 +4,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from './screens/HomeScreen';
-import SecScreen from './screens/SecScrenn';
+import SecScreen from './screens/SecScreen';
 import MyScreen from './screens/MyScreen';
 
 const Tab = createBottomTabNavigator();
