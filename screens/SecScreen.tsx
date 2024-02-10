@@ -32,6 +32,7 @@ const SecScreen = () => {
     setSelectedStation(station);
   };
 
+  
   return (
     <View>
       {/* 호선 선택 */}
@@ -51,7 +52,7 @@ const SecScreen = () => {
         <Picker.Item label="9호선" value="9호선" />
         {/* 나머지 호선들의 Picker.Item 추가 */}
       </Picker>
-
+      
       {/* 역 선택 */}
       <Text>역 선택:</Text>
       <Picker
@@ -65,6 +66,7 @@ const SecScreen = () => {
       </Picker>
 
       <Text>혼잡도</Text>
+      {/* <Text>{selectedLine},{selectedStation}</Text> */}
     </View>
   );
 };
